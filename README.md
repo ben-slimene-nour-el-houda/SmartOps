@@ -1,4 +1,4 @@
-# 🚀 SmartOps — AI-Powered Fraud Detection Platform
+# SmartOps — AI-Powered Fraud Detection Platform
 
 SmartOps is a professional, production-grade real-time fraud detection platform designed for high-velocity financial transactions. It leverages a hybrid intelligence approach, combining heuristic rules with machine learning to identify and alert on suspicious activities in milliseconds.
 
