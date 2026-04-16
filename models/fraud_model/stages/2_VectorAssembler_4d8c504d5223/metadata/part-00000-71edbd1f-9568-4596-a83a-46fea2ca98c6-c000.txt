@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.VectorAssembler","timestamp":1776376398327,"sparkVersion":"4.1.1","uid":"VectorAssembler_4d8c504d5223","paramMap":{"inputCols":["amount","tx_hour","is_online","location_idx","merchant_category_idx"],"outputCol":"features"},"defaultParamMap":{"handleInvalid":"error","outputCol":"VectorAssembler_4d8c504d5223__output"}}

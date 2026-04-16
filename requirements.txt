@@ -1,0 +1,6 @@
+confluent-kafka==2.3.0
+pyspark==4.1.1
+python-dotenv==1.0.0
+faker==22.6.0
+pandas==2.2.0
+pytest==8.0.0
