@@ -46,20 +46,29 @@ graph TD
 
 ## ✨ Key Features
 
-### 🔹 Intelligent Detection (Phase 3)
-- **Hybrid Decision Engine**: Combines **ML Probability** (Random Forest) with **Rule-based Heuristics** for a comprehensive risk score.
-- **Dynamic Scoring**: Real-time calculation of `risk_level` (0-10) and `fraud_probability`.
-- **Multi-Topic Intelligence**: Separate Kafka streams for full transaction history and high-priority alerts.
+## ✨ Key Features  
 
-### 🔹 Enhanced Pipeline & Persistence (Phase 2)
-- **Dual Persistence**: Efficient storage using **Parquet** for the full dataset and **JSON** for immediate fraud case investigation.
-- **Velocity Attack Attack Simulation**: Advanced producer logic that simulates automated bot bursts and rapid-fire transactions from a single user.
-- **Advanced Feature Engineering**: Automatic derivation of `amount_bucket`, `hour_category`, and `is_high_value` flags.
+### Released Features  
+- **Real-Time Data Pipeline** using Kafka (KRaft mode)  
+- **Fraud Detection Engine** (ML + rule-based scoring)  
+- Real-time `fraud_probability` and `risk_level`  
+- **Feature Engineering** (amount, time, high-value flags)  
+- **Fraud Simulation** (velocity attacks & abnormal patterns)  
+- **Dual Storage**:  
+  - Parquet (analytics)  
+  - JSON (fraud cases)  
+- **Microservices Foundation** (ingestion, scoring, alerts)  
 
-### 🔹 High-Performance Foundation (Phase 1)
-- **Kafka KRaft Mode**: Modern Kafka deployment without the overhead of Zookeeper.
-- **Tunisian Market Context**: Fully localized for TND currency and Tunisian geography (Tunis, Sousse, Sfax, etc.).
-- **Microservice Structure**: Clean, modular code organized for future Kubernetes scaling.
+---
+
+### Future Features  
+- Full **MLOps pipeline** (MLflow + Azure ML + model versioning)  
+- **Kubernetes deployment (AKS)** with auto-scaling  
+- Advanced **CI/CD pipeline** (GitHub Actions + ArgoCD)  
+- **API Gateway & Case Management system**  
+- **Monitoring & Observability** (Prometheus, Grafana, ELK, Jaeger)  
+- **Service Mesh (Istio)** for security and traffic control  
+- Enhanced **Security** (mTLS, RBAC, Key Vault)  
 
 ---
 
@@ -97,7 +106,7 @@ python models/train_model.py
 
 ---
 
-## 🚀 Execution Guide
+## Execution Guide
 
 Follow this order to run the full platform in dedicated terminal windows:
 
