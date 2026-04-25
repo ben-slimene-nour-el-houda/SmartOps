@@ -157,4 +157,4 @@ You can tune the system sensitivity via the `.env` file:
 - [ ] **Phase 6**: Streamlit Real-Time Dashboard for SOC analysts.
 
 ---
-*Built with ❤️ by SmartOps Engineering Team.*
+*Built with ❤️*
